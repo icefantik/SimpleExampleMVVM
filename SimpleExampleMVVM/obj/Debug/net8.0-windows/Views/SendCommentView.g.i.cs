@@ -53,7 +53,7 @@ namespace SimpleExampleMVVM.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/SimpleExampleMVVM;component/views/sendcommentview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/SimpleExampleMVVM;V1.0.0.0;component/views/sendcommentview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\SendCommentView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
